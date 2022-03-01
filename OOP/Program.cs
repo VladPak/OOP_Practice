@@ -29,33 +29,33 @@ namespace OOP
             #endregion
 
             #region Inheritance
-            //SalesWorker salesWorker = new SalesWorker(1, "Alex", "alex432@gmail.com", "5558899", 800, 100);
-            //Admin admin = new Admin(10, "Mikhail", "mishka91@gmail.com", "8795544", 600, "softmaster384");
+            SalesWorker salesWorker = new SalesWorker(1, "Alex", "alex432@gmail.com", "5558899", 800, 100);
+            Admin admin = new Admin(10, "Mikhail", "mishka91@gmail.com", "8795544", 600, "softmaster384");
 
-            //Console.WriteLine(salesWorker.printInformation());
-            //Console.WriteLine(salesWorker.showBonusIndeces());
+            Console.WriteLine(salesWorker.printInformation());
+            Console.WriteLine(salesWorker.showBonusIndeces());
 
             //Console.WriteLine(admin.printInformation());
             //Console.WriteLine(admin.printNameAndEmail());
             #endregion
 
             #region Polymorphism
-            Simple simple = new Simple();
-            simple.RoomId = 1;
-            simple.RoomType = "Simple (One Bed)";
-            simple.RoomCost = 300;
-            simple.isOccupied = true;
-            simple.isReserved = true;
+            //Simple simple = new Simple();
+            //simple.RoomId = 1;
+            //simple.RoomType = "Simple (One Bed)";
+            //simple.RoomCost = 300;
+            //simple.isOccupied = true;
+            //simple.isReserved = true;
 
-            Free free = new Free();
-            free.RoomId = 1;
-            free.RoomType = "Free (One Bed)";
-            free.RoomCost = 0;
-            free.isOccupied = true;
-            free.isReserved = true;
+            //Free free = new Free();
+            //free.RoomId = 1;
+            //free.RoomType = "Free (One Bed)";
+            //free.RoomCost = 0;
+            //free.isOccupied = true;
+            //free.isReserved = true;
 
-            Console.WriteLine(free.printRoomCostForType());
-            Console.WriteLine(simple.printRoomCostForType());
+            //Console.WriteLine(free.printRoomCostForType());
+            //Console.WriteLine(simple.printRoomCostForType());
             #endregion
 
             #region Abstraction

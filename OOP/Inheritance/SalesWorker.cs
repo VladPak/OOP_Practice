@@ -22,16 +22,12 @@ namespace OOP.Inheritance
         public override string printInformation()
         {
             return base.printInformation();
-            //var result = $"Id: {Id} \n Name: {Name} " +
-            //    $"\n Email: {Email} \n " +
-            //    $"Telephone number: {TelephoneNumber} \n " +
-            //    $"Base Salary: {BaseSalary } \n Bonus Salary: {(BonusForSalary) + BaseSalary}";
-            //return result;
         }
 
         public string showBonusIndeces()
         {
-            var result = $"Bonus Amount: {BonusForSalary}";
+            var result = $"Worker Id: {Id} \n Base salary: {BaseSalary} \n Bonus Amount: {BonusForSalary} " +
+                $"\n Total Salary: {BaseSalary + BonusForSalary}";
             return result;
         }
     }
